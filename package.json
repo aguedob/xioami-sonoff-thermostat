@@ -1,19 +1,20 @@
 {
-  "name": "simple-sonoff-server",
+  "name": "xiaomi-sonoff-thermostat",
   "version": "2.0.0",
-  "description": "A simple SONOFF Cloud replacement.",
+  "description": "Domotic thermostat created with a Xiaomi Mitja thermometer and a Sonoff switch.",
   "main": "sonoff.server.module.js",
   "dependencies": {
-    "fs": "^0.0.1-security",
-    "http": "^0.0.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
     "https": "^1.0.0",
-    "express": "^4.16.2",
-    "wifi-control": "^2.0.1",
     "nodejs-websocket": "^1.7.1",
-    "request": "^2.83.0",
-    "url": "^0.11.0"
+    "request": "^2.88.0",
+    "url": "^0.11.0",
+    "wifi-control": "^2.0.1"
   },
-  "repository": "github:mdopp/simple-sonoff-server",
+  "repository": "github:aguedob/xiaomi-sonoff-server",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,6 +22,6 @@
   "keywords": [
     "sonoff"
   ],
-  "author": "Michael Dopp",
+  "author": "Andres Guerrero (forked from Michael Dopp simple-sonoff-server)",
   "license": "ISC"
 }
